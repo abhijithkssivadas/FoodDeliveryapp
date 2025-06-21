@@ -10,7 +10,7 @@ const StoreContextProvider = (props) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const url = 'http://localhost:4000';
+  const url = 'https://fooddeliveryapp-backend-q9d7.onrender.com';
 
   const addToCart = async (itemId) => {
     if (!cartItems[itemId]) {
