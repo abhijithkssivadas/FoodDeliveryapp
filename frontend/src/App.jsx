@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer'
 import LoginPopup from './Components/LoginPopup/LoginPopup'
 import Verify from './Pages/Verify/Verify'
 import MyOrders from './Pages/MyOrders/MyOrders'
-import CODSuccess from './Pages/CodSuccess/CodSuccess'
+import CodSuccess from './Pages/CodSuccess/CodSuccess'
 const App = () => {
 
     const [showLogin,setShowLogin] = useState(false)
@@ -25,7 +25,7 @@ const App = () => {
          <Route path='/order' element={<Order/>} />
           <Route path='/verify' element={<Verify/>} />
           <Route path='/myorders' element={<MyOrders/>} />
-          <Route path="/cod-success" element={<CODSuccess />} />
+          <Route path="/cod-success" element={<CodSuccess />} />
          </Routes>
      </StrictMode>
     </div>
