@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './CODSuccess.css';
+import './CodSuccess.css';
 import { assets } from '../../assets/assets';
 
 const CODSuccess = () => {
